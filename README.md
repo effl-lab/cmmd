@@ -7,11 +7,11 @@ The [original implementation](https://github.com/google-research/google-research
 * For CLIP embedding, we use CLIPImageEncoder while the cmmd paper use [`CLIPVisionModelWithProjection`](https://huggingface.co/docs/transformers/model_doc/clip#transformers.CLIPVisionModel) from huggingface.
 
 ## Installed modules
-* torch 1.13.1 (with CUDA 11.7)
-* numpy
-* [`transformers`](https://github.com/huggingface/transformers)
-* pillow
-* tqdm
+* [torch 1.13.1 (with CUDA 11.7)](https://pytorch.org/get-started/previous-versions/)
+* [numpy](https://numpy.org/install/)
+* [transformers](https://github.com/huggingface/transformers)
+* [pillow](https://pypi.org/project/pillow/)
+* [tqdm](https://pypi.org/project/tqdm/)
 
 ## Run
 ```bash
