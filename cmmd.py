@@ -132,7 +132,7 @@ def parse_args(argv):
         "--model_version",
         dest="model_version",
         type=str,
-        default="openai/clip-vit-large-patch14-336"
+        default="openai/clip-vit-large-patch14-336" # https://huggingface.co/openai/clip-vit-large-patch14-336
     )
 
     parser.add_argument(
