@@ -13,7 +13,6 @@ The [original implementation](https://github.com/google-research/google-research
 * pillow
 * tqdm
 
-
 ## Run
 ```bash
 python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset
