@@ -2,7 +2,7 @@
 Unofficial PyTorch implementation of CMMD. 
 CMMD is proposed in [Rethinking FID: Towards a Better Evaluation Metric for Image Generation](https://arxiv.org/abs/2401.09603). CMMD is considered a more effective metric than FID, designed to overcome the persistent challenges of FID. 
 
-The [original original implementation](https://github.com/google-research/google-research/tree/master/cmmd) is based on JAX and TensorFlow. This implementation replaced them PyTorch and does not need the [`scenic`](https://github.com/google-research/scenic) for computing CLIP embeddings.
+The [original implementation](https://github.com/google-research/google-research/tree/master/cmmd) is based on JAX and TensorFlow. This implementation replaced them PyTorch and does not need the [`scenic`](https://github.com/google-research/scenic) for computing CLIP embeddings.
 
 * For CLIP embedding, we use CLIPImageEncoder while the cmmd paper use CLIPImageEncoderWithProjection from [`huggingface`](https://huggingface.co/openai/clip-vit-large-patch14-336)
 
