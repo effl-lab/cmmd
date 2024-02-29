@@ -4,7 +4,7 @@ CMMD is proposed in [Rethinking FID: Towards a Better Evaluation Metric for Imag
 
 The [original implementation](https://github.com/google-research/google-research/tree/master/cmmd) is based on JAX and TensorFlow. This implementation replaced them PyTorch and does not need the [`scenic`](https://github.com/google-research/scenic) for computing CLIP embeddings.
 
-* For CLIP embedding, we use CLIPImageEncoder while the cmmd paper use [`CLIPVisionModelWithProjection`](https://huggingface.co/docs/transformers/model_doc/clip#transformers.CLIPVisionModel) from huggingface.
+* For CLIP embedding, we use CLIPImageEncoder while the cmmd paper use [`CLIPVisionModel`](https://huggingface.co/docs/transformers/model_doc/clip#transformers.CLIPVisionModel) from huggingface.
 
 ## Installed modules
 * [torch 1.13.1 (with CUDA 11.7)](https://pytorch.org/get-started/previous-versions/)
