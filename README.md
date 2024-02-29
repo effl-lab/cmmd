@@ -1,5 +1,5 @@
-# CMMD (Maximum Mean Discrepancy distance using CLIP embeddings)
-Unofficial PyTorch implementation of CMMD. 
+# CMMD 
+Unofficial PyTorch implementation of CMMD (Maximum Mean Discrepancy distance using CLIP embeddings). 
 CMMD is proposed in [Rethinking FID: Towards a Better Evaluation Metric for Image Generation](https://arxiv.org/abs/2401.09603). CMMD is considered a more effective metric than FID, designed to overcome the persistent challenges of FID. 
 
 The [original implementation](https://github.com/google-research/google-research/tree/master/cmmd) is based on JAX and TensorFlow. This implementation replaced them PyTorch and does not need the [`scenic`](https://github.com/google-research/scenic) for computing CLIP embeddings.
@@ -28,4 +28,4 @@ python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_
 python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset --subset_size subset size
 ```
 ## Acknowledgements
-Thank you to the authors for proposing CMMD, which improves to evaluate generated data in a robust and reliable manner. 
+Thank you to Sadeep (1st author) for meaningful advice and help to re-implement the CMMD.
