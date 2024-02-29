@@ -28,4 +28,4 @@ python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_
 python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset --subset_size subset size
 ```
 ## Acknowledgements
-Thank you to Sadeep (1st author; @sadeepj) for meaningful advice and help to re-implement the CMMD.
+Thank you to [Sadeep](https://github.com/sadeepj) for meaningful advice and help to re-implement the CMMD.
